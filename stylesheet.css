@@ -84,6 +84,7 @@ a {
   font-family: 'Poppins', sans-serif; 
   /*font-family: 'Source Serif Pro', serif;*/
   font-size: 14px;
+  line-height: 1.5;
 }
 
 strong {
@@ -154,7 +155,7 @@ span.highlight {
   padding: 12px;
   text-decoration: none;
   font-size: 14px;
-  line-height: 25px;
+  /*line-height: 25px;*/
   border-radius: 4px;
 }
 
@@ -179,6 +180,30 @@ span.highlight {
 /* Float the link section to the right */
 .header-right {
   float: right;
+}
+
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    border: none;
+    background-color: #0074E1;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family:'Poppins',sans-serif;
+    /*border-padding:10px;*/
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top:1px;
+    padding-bottom:1px;
+    border-radius: 8%/16%;
+    margin:0.3e, 0.3em 0.3em 0.3em;
 }
 
 button.button1{
